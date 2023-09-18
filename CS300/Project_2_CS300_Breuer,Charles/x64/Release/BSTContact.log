@@ -1,0 +1,13 @@
+﻿  BSTContact.cpp
+C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\src\BSTContact.cpp(21,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\src\BSTContact.cpp(25,54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\src\BSTContact.cpp(29,54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\src\BSTContact.cpp(227,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\src\BSTContact.cpp(231,48): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\src\BSTContact.cpp(235,48): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  317 of 326 functions (97.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BSTContact.vcxproj -> C:\Users\Charles's PC\Desktop\Project_2_CS300_Breuer,Charles\BSTCourse\x64\Release\BSTContact.exe
