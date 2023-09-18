@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/navigation_all_events">
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.zybooks.projectcs360.Settings"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_all_events"
+        android:name="com.zybooks.projectcs360.AllEvents"
+        android:label="@string/title_all_events"
+        tools:layout="@layout/fragment_all_events" >
+
+        <action
+            android:id="@+id/action_navigation_all_events_to_navigation_view"
+            app:destination="@id/navigation_view" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_create"
+        android:name="com.zybooks.projectcs360.CreateEvent"
+        android:label="@string/title_create_event"
+        tools:layout="@layout/fragment_create_event" >
+        <action
+            android:id="@+id/action_navigation_create_to_navigation_all_events"
+            app:destination="@id/navigation_all_events" />
+        <action
+            android:id="@+id/action_navigation_create_to_navigation_view"
+            app:destination="@id/navigation_view" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_edit"
+        android:name="com.zybooks.projectcs360.EditEvent"
+        android:label="@string/title_edit_event"
+        tools:layout="@layout/fragment_edit_event" >
+        <action
+            android:id="@+id/action_navigation_edit_to_navigation_view"
+            app:destination="@id/navigation_view" />
+        <action
+            android:id="@+id/action_navigation_edit_to_navigation_all_events"
+            app:destination="@id/navigation_all_events" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_view"
+        android:name="com.zybooks.projectcs360.ViewEvent"
+        android:label="@string/title_view_event"
+        tools:layout="@layout/fragment_view_event" >
+        <action
+            android:id="@+id/action_navigation_view_to_navigation_all_events"
+            app:destination="@id/navigation_all_events" />
+        <action
+            android:id="@+id/action_navigation_view_to_navigation_edit"
+            app:destination="@id/navigation_edit" />
+    </fragment>
+</navigation>

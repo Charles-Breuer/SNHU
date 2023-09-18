@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_all_events"
+        android:icon="@drawable/list"
+        android:title="@string/title_all_events" />
+    <item
+        android:id="@+id/navigation_create"
+        android:icon="@drawable/add_list"
+        android:title="@string/title_create_event" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/title_settings" />
+
+
+
+</menu>

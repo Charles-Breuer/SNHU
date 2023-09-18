@@ -1,0 +1,8 @@
+﻿  BSTContact.cpp
+F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\src\BSTContact.cpp(21,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\src\BSTContact.cpp(25,54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\src\BSTContact.cpp(29,54): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\src\BSTContact.cpp(226,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\src\BSTContact.cpp(230,48): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\src\BSTContact.cpp(234,48): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  BSTContact.vcxproj -> F:\Charles_Files\Documents\Classes\SNHU\Algorithms CS300\Week 5\BSTContact\x64\Debug\BSTContact.exe

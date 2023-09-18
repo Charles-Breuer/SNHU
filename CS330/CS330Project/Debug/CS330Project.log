@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(228,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(394,36): warning C4101: 'colorLoc': unreferenced local variable
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(890,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(891,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(895,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(896,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(897,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Charles's PC\Desktop\CS330Project\src\Source.cpp(898,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CS330Project.vcxproj -> C:\Users\Charles's PC\Desktop\CS330Project\Debug\CS330Project.exe
+  C:\Users\Charles's PC\Desktop\CS330Project\OpenGL\GLEW\bin\Release\Win32\glew32.dll
+  1 File(s) copied

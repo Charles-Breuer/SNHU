@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/settings_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.5"
+            android:text="@string/title_settings"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/settings_horizontal_rule_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/settings_horizontal_rule_title"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="60dp"
+            android:background="#000000"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/settings_image_view_1"
+            android:layout_width="386dp"
+            android:layout_height="298dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/settings_panel"
+            app:layout_constraintBottom_toTopOf="@+id/settings_sms_permission"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settings_horizontal_rule_title" />
+
+        <TextView
+            android:id="@+id/settings_sms_permission"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="64dp"
+            android:gravity="center"
+            android:text="@string/settings_sms_permission"
+            android:textColor="@color/white"
+            android:background="@color/primary_2"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:onClick="onFragSettingsClick2"
+            app:layout_constraintBottom_toTopOf="@+id/settings_button_bar"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/settings_button_bar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/settings_button_bar_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/primary_2"
+                android:backgroundTint="@color/primary_2"
+                android:clickable="true"
+                android:gravity="center"
+                android:letterSpacing="0.2"
+                android:onClick="onFragSettingsClick"
+                android:text="@string/settings_button_bar_logout"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
